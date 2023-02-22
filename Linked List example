@@ -18,7 +18,7 @@ void printList(Node* n)
     while (n != NULL) {
         cout << n->data << " "; //  points to and retrieves the data 
         n = n->next; // points to the next node in the list
-    }
+    } // value stored in 'next' is pointer to the next element in the list
 }
   
 // Driver's code
